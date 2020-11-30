@@ -1,18 +1,10 @@
 trigger:
   - '*'
-<<<<<<< HEAD
-  
-pool:
-  vmImage: 'ubuntu-18.04'
-  demands:
-    - npm
-=======
 
 pool:
   vmImage: 'ubuntu-18.04'
   demands:
   - npm
->>>>>>> unit-tests
 
 variables:
   buildConfiguration: 'Release'
